@@ -10,19 +10,19 @@ _Sales Management > Quote Management > General Operations > **Opportunity/Quote 
 1. Make sure you have developer mode turned on and open Opportunity/Quote Entry. Under Tools open the Customization Menu. Then from the Customization Window under Tools open the Toolbox.
 2. Use the toolbox and create the blank fields and labels under the Line>Details tab.
 
-![](images/01-QuoteLineAvailability_02-1-1024x487.png)
+[Adding Blank Fields with Toolbox](images/01-QuoteLineAvailability_02-1-1024x487.png)
 
 1. To begin, open the Customization Tools Dialog window. Under Tools select Data Tools.
 
-![](images/01-QuoteLineAvailability_03-1.png)
+[Data Tools](images/01-QuoteLineAvailability_03-1.png)
 
 1. Add a foreign key view linking the QuoteDtl to the PartNum.
 
-![](images/01-QuoteLineAvailability_04-1.png)
+[Foreign Key View](images/01-QuoteLineAvailability_04-1.png)
 
 1. Add a sub table key view linking the PartNum to the Part Warehouse.
 
-![](images/01-QuoteLineAvailability_05-1.png)
+[](images/01-QuoteLineAvailability_05-1.png)
 
 1. From the Customization Tools Dialog under Wizards > Form Event Wizard select EpiViewNotification and QuoteDtl. Click the right arrow and click update event code.
 
