@@ -34,4 +34,4 @@ _Sales Management > Quote Management > General Operations > **Opportunity/Quote 
 
 ![](images/01-QuoteLineAvailability_06-1.png)
 
-Within the Script editor some new code has automatically been added. This code watches when changes are made to QuoteDtl. We will add some custom code that will automatically run when that event occurs.
+Within the Script editor some new code has automatically been added. This code watches when changes are made to QuoteDtl. We will add some [custom code](QuoteLineAvailability.h) that will automatically run when that event occurs.  
