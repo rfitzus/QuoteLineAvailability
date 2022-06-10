@@ -3,6 +3,8 @@ In Sales Order Entry there is a window that displays the inventory balance of th
 
 ## Initial Setup Steps ##
 
+---
+
 #### Navigate to this program from the Main Menu:
 
 _Sales Management > Quote Management > General Operations > **Opportunity/Quote Entry**_ 
