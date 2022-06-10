@@ -97,7 +97,7 @@ public class Script
 		// NotifyType.Initialize, NotifyType.AddRow, NotifyType.DeleteRow, NotifyType.InitLastView, NotifyType.InitAndResetTreeNodes
 		if ((args.NotifyType == EpiTransaction.NotifyType.Initialize))
 		{
-			//the below if statement checks to make sure your a new line or new quote before updating balances
+			//the below if statement checks to make sure you are on a new line or new quote before updating balances
 			if ((args.Row > -1) & (quoteLine != args.Row || quoteNum != (int)view.dataView[args.Row]["QuoteNum"] || partNum != (string)view.dataView[args.Row]["PartNum"]  ) )
 			{
 				
