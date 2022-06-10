@@ -6,6 +6,7 @@ In Sales Order Entry there is a window that displays the inventory balance of th
 #### Navigate to this program from the Main Menu:
 
 _Sales Management > Quote Management > General Operations > **Opportunity/Quote Entry**_ 
+---
 
 1. Make sure you have developer mode turned on and open Opportunity/Quote Entry. Under Tools open the Customization Menu. Then from the Customization Window under Tools open the Toolbox.
 2. Use the toolbox and create the blank fields and labels under the Line>Details tab.
